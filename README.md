@@ -12,23 +12,35 @@ Built for artists and technical artists working with real time pipelines.
 - Supports Unity and engine neutral layouts
 - Reduces texture count and memory use
 
-## Channel Extractor
+## Unity Texture Packer
 
 <table>
 <tr>
 <td width="55%">
 
-- Open an image
-- Export individual channels
-  - Red
-  - Green
-  - Blue
-  - Alpha
+Inputs:
+- Metalness  
+- Ambient Occlusion  
+- Detail  
+- Smoothness  
+
+Output layout:
+
+| Channel | Map |
+|--------|-----|
+| Red | Metalness |
+| Green | Ambient Occlusion |
+| Blue | Detail |
+| Alpha | Smoothness |
+
+Invert Smoothness:
+- Inverts black and white values of the map.
+- This lets you use roughness maps not created for Unity.
 
 </td>
 <td width="45%" align="center">
 
-<img src="preview_blue.png" width="320">
+<img src="preview_unity.png" width="320">
 
 </td>
 </tr>
@@ -62,35 +74,23 @@ Output layout:
 </tr>
 </table>
 
-## Unity Texture Packer
+## Channel Extractor
 
 <table>
 <tr>
 <td width="55%">
 
-Inputs:
-- Metalness  
-- Ambient Occlusion  
-- Detail  
-- Smoothness  
-
-Output layout:
-
-| Channel | Map |
-|--------|-----|
-| Red | Metalness |
-| Green | Ambient Occlusion |
-| Blue | Detail |
-| Alpha | Smoothness |
-
-Invert Smoothness:
-- Inverts black and white values of the map.
-- This lets you use roughness maps not created for Unity.
+- Open an image
+- Export individual channels
+  - Red
+  - Green
+  - Blue
+  - Alpha
 
 </td>
 <td width="45%" align="center">
 
-<img src="preview_unity.png" width="320">
+<img src="preview_blue.png" width="320">
 
 </td>
 </tr>
