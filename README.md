@@ -9,11 +9,9 @@ Built for artists and technical artists working with real time pipelines.
 
 - Extract individual colour channels from any RGBA image
 - Pack multiple grayscale maps into a single texture
-- Supports Unity and engine neutral layouts
 - Reduces texture count and memory use
 
 ## Unity Texture Packer
-
 <table>
 <tr>
 <td width="55%">
@@ -47,7 +45,6 @@ Invert Smoothness:
 </table>
 
 ## AORM Packer
-
 <table>
 <tr>
 <td width="55%">
@@ -75,7 +72,6 @@ Output layout:
 </table>
 
 ## Channel Extractor
-
 <table>
 <tr>
 <td width="55%">
