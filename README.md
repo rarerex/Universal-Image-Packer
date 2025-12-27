@@ -11,7 +11,7 @@ Built for artists and technical artists working with real time pipelines.
 - Pack multiple grayscale maps into a single texture
 - Reduces texture count and memory use
 
-## Unity Texture Packer
+## Unity Map Packer
 <table>
 <tr>
 <td width="55%">
@@ -44,7 +44,7 @@ Invert Smoothness:
 </tr>
 </table>
 
-## AORM Packer
+## AORM Map Packer
 <table>
 <tr>
 <td width="55%">
