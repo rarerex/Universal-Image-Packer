@@ -1,9 +1,9 @@
 # Universal Image Packer (UIP)
 
 Universal Image Packer is an open source desktop tool for texture channel extraction and packing.  
-You use it to extract RGBA channels or create engine ready packed textures from grayscale maps.
+You can use it to extract RGBA channels or create engine ready packed textures from grayscale maps.
 
-Built for artists and technical artists working with real time pipelines.
+Built for 3D artists working with real time pipelines.
 
 ## Features
 
