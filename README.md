@@ -96,4 +96,4 @@ Output layout:
 
 - You do not need to load all possible inputs to build a map.
 - All input images must share the same resolution.
-- Currently built windows only (.exe).
+- Currently built for windows only (.exe).
